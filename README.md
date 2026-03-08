@@ -235,7 +235,7 @@ The authors are **not responsible for misuse or violations of platform policies*
 # 📜 License
 
 Distributed under the MIT License.
-See `LICENSE` for more information.
+See `LICENSE ![License](https://img.shields.io/badge/license-MIT-blue.svg)` for more information.
 
 ---
 
