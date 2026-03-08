@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Booster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="card main-card">
+            <div class="logo-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="tiktok-logo"><path fill="currentColor" d="M448 209.91a210.06 210.06 0 0 1-122.77-39.25V349.38A162.55 162.55 0 1 1 185 188.31V278.2a74.62 74.62 0 1 0 52.23 71.18V0l88 0a121.18 121.18 0 0 0 1.86 22.17h0A122.18 122.18 0 0 0 381 102.39a121.43 121.43 0 0 0 67 20.14z"/></svg>
+            </div>
+            <h1 class="title">TikTok <span class="highlight">Booster</span></h1>
+            <p class="subtitle">Dapatkan Likes Gratis Secara Instan & Aman</p>
+
+            <form id="likeForm">
+                <div class="input-group">
+                    <i class="fa-solid fa-link input-icon"></i>
+                    <input type="url" id="url" placeholder="Tempel link video TikTok di sini..." required autocomplete="off">
+                </div>
+                
+                <button type="submit" id="submitBtn">
+                    <i class="fa-solid fa-bolt"></i>
+                    <span class="btn-text">Kirim Likes Gratis</span>
+                    <div class="loader" id="loader"></div>
+                </button>
+            </form>
+
+            <div id="resultArea" class="result hidden">
+                <h3>Status</h3>
+                <pre id="output"></pre>
+            </div>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="icon-circle"><i class="fa-solid fa-bolt"></i></div>
+                <span>SUPER CEPAT</span>
+            </div>
+            <div class="feature-item">
+                <div class="icon-circle"><i class="fa-solid fa-shield-halved"></i></div>
+                <span>AMAN</span>
+            </div>
+            <div class="feature-item">
+                <div class="icon-circle"><i class="fa-solid fa-star"></i></div>
+                <span>KUALITAS TINGGI</span>
+            </div>
+            <div class="feature-item">
+                <div class="icon-circle"><i class="fa-solid fa-mobile-screen-button"></i></div>
+                <span>RESPONSIF</span>
+            </div>
+        </div>
+
+        <div class="card how-to-card">
+            <h2 class="how-to-title"><i class="fa-solid fa-book-open"></i> Cara Penggunaan</h2>
+            <div class="steps-list">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <p>Buka Aplikasi TikTok & Salin Link Video</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <p>Tempel Link di kotak di atas</p>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <p>Klik Tombol Kirim & Tunggu Prosesnya</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>©JHON PRODUCTION </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
